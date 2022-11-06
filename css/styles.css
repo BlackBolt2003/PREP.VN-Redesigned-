@@ -1,0 +1,38 @@
+#logo-image {
+  height: 5rem;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.navbar {
+  padding: 2rem 4rem;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.nav-link {
+  margin: auto;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #989898;
+}
+
+.nav-link:last-child {
+  margin-right: 2.5rem;
+}
+
+.btn {
+  margin: 0 0.5rem;
+  height: 4rem;
+  width: 8rem;
+  border-radius: 2rem;
+  border-width: 2px;
+  font-weight: 600;
+  padding: auto 1rem;
+  font-size: 1.2rem;
+}
