@@ -188,8 +188,16 @@ body {
 /* Testimonial section below */
 
 #testimonial-section{
-  /* min-height: 100vh; */
   background-color: #1479f4;
+}
+
+#testimonial-section h1{
+  width: fit-content; 
+  /* Element must have fixed width for below line to work */
+  margin: 0 auto;
+  padding: 2rem 0 0 0;
+  font-size: 3rem;
+  color: white;
 }
 
 .testimonial-container{
@@ -223,7 +231,7 @@ body {
 opacity: 0;
 filter: blur(10px);
 transform: translateX(-100%);
-transition: all 1s;
+transition: all 0.8s;
 }
 
 .show{
