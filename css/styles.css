@@ -247,3 +247,21 @@ transform: translateX(0);
 .testimonial:nth-child(3){
   transition-delay: 600ms;
 }
+
+/* Press Images Section */
+#press-img{
+  align-items: center;
+  padding: 8rem 0;
+}
+#press-img div{
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#press-img img{
+  margin: 0 30px;
+}
+#footer{
+
+  background-color: #f5f7fb;
+}
